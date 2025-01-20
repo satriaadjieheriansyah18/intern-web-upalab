@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: rgb(0,65,130);">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="/assets/web logoo.png" class="rounded" alt="Bootstrap" width="380" height="85">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse custom-width" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium ps-3" style="color: black;" href="../index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FASILITAS LABORATORIUM
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_nanomaterial.html">LABORATORIUM NANOMATERIAL</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_spektroskopi.html">LABORATORIUM SPEKTROSKOPI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_bioteknologi.html">LABORATORIUM BIOTEKNOLOGI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_permesinanIndustri.html">LABORATORIUM PERMESINAN INDUSTRI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_energiTerbarukan.html">LABORATORIUM ENERGI TERBARUKAN</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_mekatronika.html">LABORATORIUM MEKATRONIKA</a></li>
+                      <li><a class="dropdown-item" href="#">REKAMAN RIWAYAT PERALATAN</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TENTANG KAMI
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/TentangKami_html/sambutankepalaUPA.html">SAMBUTAN KEPALA UPA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/sejarahUntirta.html">SEJARAH UNTIRTA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/personil&strukturOrg.html">PERSONIL DAN STRUKTUR ORGANISASI</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/visi&misi.html">VISI DAN MISI</a></li>
+                      <li><a class="dropdown-item" href="#">COMPANY PROFILE UPA LAB TERPADU UNTIRTA</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LAYANAN PENGUJIAN/ANALISIS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">DAFTAR RUANG LINGKUP LAYANAN PENGUJIAN/ANALISIS</a></li>
+                  <li><a class="dropdown-item" href="#">KALIBRASI</a></li>
+                  <li><a class="dropdown-item" href="#">PENELITIAN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light fw-medium d-flex align-items-center" style="border-radius: 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <i class="bi bi-list me-2"></i> Menu
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="offcanvas offcanvas-end" style="background-color:rgb(0,65,130);" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+              <h5 class="offcanvas-title" style="color: white;" id="offcanvasMenuLabel">MENU LAINNYA</h5>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-group">
+                <li class="list-group-item fw-medium"><a href="#">KONTRIBUSI PUBLIKASI DAN SITASI</a></li>
+                <li class="list-group-item fw-medium"><a href="https://simlab.untirta.ac.id/">SIMLAB LAYANAN ANALISIS</a></li>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed fw-medium" style="color: black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        LABORATORIUM PENELITIAN/CENTER OF EXCELLENCE/PUI
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item1" href="https://icefory.untirta.ac.id/">PUI-PT INOVASI PANGAN LOKAL</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT INOVASI LIMBAH INDUSTRI UNTUK ENERGI TERBARUKAN DAN PRODUK OLAHANNYA</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT BANANA RESEARCH CENTER</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+                <li class="list-group-item fw-medium"><a href="#">JURNAL PENGELOLAAN LABORATORIUM PENDIDIKAN</a></li>
+                <li class="list-group-item fw-medium"><a href="#">RUANG LINGKUP PENGUJIAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/hLSk0">SURVEY KEPUASAN PELANGGAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/7MftR">PENGADUAN KELUAHAN PELANGGAN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 130px;">
+        <div class="mt-3 ps-3" style="color: rgb(0,41,92);">
+            <h3 class="fw-bold">PROFIL LABORATORIUM BIOTEKNOLOGI – LAYANAN UJI HALAL</h3>
+        </div>
+        <div class="ps-3"><img src="/assets/laboratorium/lab biotek.png" class="img-fluid" alt="..."></div>
+        <div class="mt-3 ps-3">
+            <p style="text-align: justify;">
+              Laboratorium Bioteknologi merupakan sebuah pusat penelitian dan pengujian yang berfokus pada penyediaan layanan uji halal yang terpercaya untuk memenuhi kebutuhan sertifikasi halal, khususnya bagi Halal Center dan perusahaan di berbagai sektor industri. Dengan adanya peningkatan kesadaran masyarakat terhadap pentingnya produk yang halal dan berkualitas, kami hadir sebagai mitra strategis yang membantu perusahaan untuk memperoleh sertifikasi halal yang sah dan diakui, baik di tingkat nasional maupun internasional.
+              Kami memahami bahwa sertifikasi halal tidak hanya menjadi kewajiban hukum, tetapi juga bagian dari komitmen perusahaan untuk memastikan bahwa produk yang dihasilkan tidak hanya aman bagi konsumen, tetapi juga memenuhi standar yang ditetapkan oleh Badan Penyelenggara Jaminan Produk Halal (BPJPH) dan Lembaga Pengkajian Pangan, Obat, dan Kosmetika (LPPOM) MUI. Oleh karena itu, Laboratorium Bioteknologi hadir dengan fasilitas yang lengkap dan didukung oleh tenaga ahli yang berpengalaman di bidang bioteknologi, kimia, mikrobiologi, dan halal certification, guna memberikan layanan uji halal yang berkualitas.              
+            </p>
+            <p style="text-align: justify;">
+                Adapun alat dan fasilitas yang tersedia di Laboratorium Bioteknologi Untirta meliputi:
+            </p>
+        </div>
+
+        <div class="container-fluid mt-5" data-aos="fade-up">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/water purication.png" class="card-img-top" alt="Card image 1">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Water Purication System</h3>
+                  <p class="mb-0">Merk: Thermo Scientific</p>
+                  <p class="mb-0 pt-1">Model: Smart2Pure Pro UV/UF 16 LPH</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Untuk menghasilkan 2 jenis type pure water yaitu type 1 dan 2 yang dapat digunakan sebagai pelarut dalam analisa menggunakan AAS, GCMS, LCMS, dan DNA.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 2 -->
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/nanophometer.png" class="card-img-top" alt="Card image 2">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Nanophometer</h3>
+                  <p class="mb-0">Merk: Implen</p>
+                  <p class="mb-0 pt-1">Model: Nanophometer NP80</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Sebagai quality control (QC) DNA sebelum dianalisa menggunakan RT-PCR (menguji kemurnian DNA diliat dari nilai aborbnasi dan konsentrasi isolate DNA yang dihasilkan dari proses ektraksi DNA)</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 3 -->
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/spindown.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Spin Down</h3>
+                  <p class="mb-0">Merk: TOMY Multi Spin</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">TOMY Multi Spin Centifuge adalah alat untuk mempercepat memutar sample (dalam mikrotube) dengan kecepatan tinggi dengan tujuan untuk memisahkan komponen-komponen dalam sampel larutan sehingga partikel yang lebih berat atau padat dapat dipisahkan dari komponen lainnya</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Real time PCR_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Real-Time PCR</h3>
+                  <p class="mb-0">Merk: Qiagen</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">model: Rotor Gene Q 5 Plex</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: untuk mendeteksi keberadaan materi genetic suatu sampel secara real time. Biasa digunakan untuk mendeteksi keberadaan virus atau bakteri pada suatu penyakit</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Gel Documentation_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Gel Documentation</h3>
+                  <p class="mb-0">Merk: Uvitec Cambridge</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">model: Firereader</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: sebagai alat visualisasi untuk mengamati pita-pita DNA setelah proses deteksi DNA menggunakan PCR. Biasa dilakukan untuk proses integritas pada pengujian deteksi DNA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Freexer Low Temperature_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Freezer Low Temperature</h3>
+                  <p class="mb-0">Merk: New Brunswick By Eppendorf</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">model: U410-86</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Untuk menyimpan sampel yang sifatnya anti-infeksius. Bisa digunakan untuk menyimpan bakteri, DNA, dan mikroorganisme lainnya kecuali virus</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Centrifuge_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Centrifuge</h3>
+                  <p class="mb-0">Merk: Eppendorf</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">model: Centrifuge 5430R</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Untuk memisahkan suatu sampel berdasarkan massa jenisnya secara sentrifugal. Di lab biotek digunakan untuk mengekstraksi sampel untuk memperoleh isolate DNA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Ultra Sonicator_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Ultra-sonicator</h3>
+                  <p class="mb-0">Merk: Elmasonic</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">model: Elmasonic S 60 H</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Sebagai alat pembersih yang memanfaatkan gelombang ultrasonic untuk memecah partikel yang menempel. Biasanya digunakan untuk menghilangkan kotoran kontaminasi lain dalam suatu glassware yang digunakan setelah proses analisis</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Incubator_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Incubator</h3>
+                  <p class="mb-0">Merk: Thermo Scientific</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">model: Heratherm IGS100</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Menghikubasi atau mengerami suatu biakan. Karena beberapa mikroorganisme dapat melakukan pertumbuhan pada temperature tertentu</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Micro-Pipette_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Micro-Pipette</h3>
+                  <p class="mb-0">Merk: Eppendorf</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Untuk mengambil larutan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img style="object-fit: cover;" src="/assets/laboratorium/Analytical Balance_Nero AI_Photo.png" class="card-img-top" alt="Card image 3">
+                <div class="card-body">
+                  <h3 style="color: rgb(51,51,51);" class="card-title">Analytical Balance</h3>
+                  <p class="mb-0">Merk: KERN</p>
+                  <p class="mb-0">Model: ABJ-NM/ABS-N</p>
+                  <p style="text-align: justify;" class="mb-0 pt-1">Fungsi: Untuk menimbang suatu zat atau sampel analisa</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color: rgb(230,207,160); max-width: 350px; border: 3px rgb(175,243,90) solid;" class="mx-auto mt-5 rounded-5">
+        <h3 class="py-2 d-flex justify-content-center">Layanan Uji Halal Kami</h3>
+      </div>
+      <div style="text-align: justify;" class="mx-auto mt-3">
+        <p class="px-3">Laboratorium kami menyediakan berbagai jenis layanan uji yang meliputi uji bahan baku, uji proses produksi, uji produk jadi, hingga uji kehalalan komponen produk yang digunakan dalam pembuatan barang-barang konsumsi. Kami menggunakan teknologi canggih dan metode ilmiah yang terstandarisasi untuk memastikan bahwa produk yang diuji benar-benar halal. Layanan yang kami tawarkan meliputi:        </p>
+      </div>
+      <div class="row" data-aos="fade-left">
+        <div class="col-md-4">
+          <i style="color:rgb(175,243,90); font-size: 40px;" class="bi bi-1-circle-fill d-flex justify-content-center"></i>
+          <p class="mb-0 text-center pt-1"><strong>Uji Bahan Baku</strong></p>
+          <p class="px-3 pt-1" style="text-align: justify;">Kami menguji bahan-bahan yang digunakan dalam pembuatan produk untuk memastikan bahwa bahan tersebut tidak mengandung unsur haram atau bahan yang dilarang oleh hukum Islam. Hal ini mencakup pengujian bahan baku dari sumber nabati maupun hewani, serta pengecekan terhadap kemungkinan kontaminasi silang dengan bahan non-halal.</p>
+        </div>
+        <div class="col-md-4">
+          <i style="color:rgb(175,243,90); font-size: 40px;" class="bi bi-2-circle-fill d-flex justify-content-center"></i>
+          <p class="mb-0 text-center pt-1"><strong>Uji Proses Produksi</strong></p>
+          <p class="px-3 pt-1" style="text-align: justify;">Kami memverifikasi apakah proses produksi yang dilakukan oleh perusahaan sudah sesuai dengan prinsip-prinsip halal. Ini termasuk memeriksa kebersihan fasilitas produksi, penggunaan alat yang tidak terkontaminasi dengan bahan non-halal, serta memastikan bahwa setiap tahapan produksi tidak melibatkan praktik yang bertentangan dengan hukum Islam.</p>
+        </div>
+        <div class="col-md-4">
+          <i style="color:rgb(175,243,90); font-size: 40px;" class="bi bi-3-circle-fill d-flex justify-content-center"></i>
+          <p class="mb-0 text-center pt-1"><strong>Uji Produk Jadi</strong></p>
+          <p class="px-3 pt-1" style="text-align: justify;">Setelah produk selesai diproduksi, kami melakukan uji untuk memastikan bahwa produk tersebut memenuhi standar halal yang telah ditetapkan. Uji produk jadi ini meliputi analisis kandungan bahan kimia, mikroorganisme, serta pemeriksaan terhadap kemasan yang digunakan.</p>
+        </div>
+        <div class="col-md-4 mx-auto">
+          <i style="color:rgb(175,243,90); font-size: 40px;" class="bi bi-4-circle-fill d-flex justify-content-center"></i>
+          <p class="mb-0 text-center pt-1"><strong>Uji Komponen Produk</strong></p>
+          <p class="px-3 pt-1" style="text-align: justify;">Bagi produk yang mengandung berbagai komponen atau bahan tambahan, kami juga menyediakan layanan uji komponen untuk memastikan setiap elemen produk, seperti pewarna, pengawet, dan bahan kimia lainnya, tidak mengandung unsur haram atau meragukan</p>
+        </div>
+      </div>
+
+      <div style="background-color:rgb(230,207,160);" class="py-1 mt-5">
+        <h4 class="px-3">Teknologi dan Prosedur yang Terpercaya</h4>
+      </div>
+      <div class="px-3 mt-1">
+        <p style="text-align: justify;">Kami menggunakan teknologi dan peralatan terbaru untuk melakukan pengujian yang akurat dan terpercaya. Laboratorium kami dilengkapi dengan fasilitas untuk analisis molekuler, mikrobiologi, dan kimia, yang semuanya sesuai dengan standar internasional. Kami juga memanfaatkan perangkat lunak terbaru untuk menganalisis data hasil uji, sehingga dapat memberikan laporan yang jelas dan mudah dipahami oleh klien.</p>
+      </div>
+      <div style="background-color:rgb(230,207,160);" class="py-1 px-3 mt-3">
+        <h4>Komitmen terhadap Keamanan dan Kepercayaan Konsumen</h4>
+      </div>
+      <div class="px-3 mt-1">
+        <p style="text-align: justify;">Laboratorium Bioteknologi berkomitmen untuk memberikan hasil yang dapat diandalkan, cepat, dan sesuai dengan standar halal internasional. Kami memahami pentingnya sertifikasi halal bagi perusahaan, tidak hanya sebagai pemenuhan kewajiban hukum, tetapi juga untuk meningkatkan kepercayaan konsumen. Oleh karena itu, kami selalu mengutamakan transparansi, akurasi, dan integritas dalam setiap layanan yang kami berikan.</p>
+      </div>
+
+
+      <div class="container-fluid" style="background-color:rgb(0,41,92);">
+        <h6 class="fw-light text text-center py-3" style="color: white;">© 2025 UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa. All Rights Reserved.</h6>
+      </div>
+
+      <a href="#" class="btn btn-success btn-floating rounded-circle shadow-lg float-button-wa" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+        <i style="font-size: 25px;" class="bi bi-whatsapp"></i>
+      </a>
+  
+      <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="whatsappModalLabel">Pilih Kontak WhatsApp</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="https://wa.me/6281234567890" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Yus Rama Denny
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://wa.me/6289876543210" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Nuryadi
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration: 1000,
+    delay: 100,
+});
+</script>
+
+</html>

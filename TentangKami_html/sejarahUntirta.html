@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: rgb(0,65,130);">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="/assets/web logoo.png" class="rounded" alt="Bootstrap" width="380" height="85">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse custom-width" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium ps-3" style="color: black;" href="../index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FASILITAS LABORATORIUM
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_nanomaterial.html">LABORATORIUM NANOMATERIAL</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_spektroskopi.html">LABORATORIUM SPEKTROSKOPI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_bioteknologi.html">LABORATORIUM BIOTEKNOLOGI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_permesinanIndustri.html">LABORATORIUM PERMESINAN INDUSTRI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_energiTerbarukan.html">LABORATORIUM ENERGI TERBARUKAN</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_mekatronika.html">LABORATORIUM MEKATRONIKA</a></li>
+                      <li><a class="dropdown-item" href="#">REKAMAN RIWAYAT PERALATAN</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TENTANG KAMI
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/TentangKami_html/sambutankepalaUPA.html">SAMBUTAN KEPALA UPA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/sejarahUntirta.html">SEJARAH UNTIRTA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/personil&strukturOrg.html">PERSONIL DAN STRUKTUR ORGANISASI</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/visi&misi.html">VISI DAN MISI</a></li>
+                      <li><a class="dropdown-item" href="#">COMPANY PROFILE UPA LAB TERPADU UNTIRTA</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LAYANAN PENGUJIAN/ANALISIS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">DAFTAR RUANG LINGKUP LAYANAN PENGUJIAN/ANALISIS</a></li>
+                  <li><a class="dropdown-item" href="#">KALIBRASI</a></li>
+                  <li><a class="dropdown-item" href="#">PENELITIAN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light fw-medium d-flex align-items-center" style="border-radius: 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <i class="bi bi-list me-2"></i> Menu
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="offcanvas offcanvas-end" style="background-color:rgb(0,65,130);" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+              <h5 class="offcanvas-title" style="color: white;" id="offcanvasMenuLabel">MENU LAINNYA</h5>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-group">
+                <li class="list-group-item fw-medium"><a href="#">KONTRIBUSI PUBLIKASI DAN SITASI</a></li>
+                <li class="list-group-item fw-medium"><a href="https://simlab.untirta.ac.id/">SIMLAB LAYANAN ANALISIS</a></li>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed fw-medium" style="color: black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        LABORATORIUM PENELITIAN/CENTER OF EXCELLENCE/PUI
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item1" href="https://icefory.untirta.ac.id/">PUI-PT INOVASI PANGAN LOKAL</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT INOVASI LIMBAH INDUSTRI UNTUK ENERGI TERBARUKAN DAN PRODUK OLAHANNYA</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT BANANA RESEARCH CENTER</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+                <li class="list-group-item fw-medium"><a href="#">JURNAL PENGELOLAAN LABORATORIUM PENDIDIKAN</a></li>
+                <li class="list-group-item fw-medium"><a href="#">RUANG LINGKUP PENGUJIAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/hLSk0">SURVEY KEPUASAN PELANGGAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/7MftR">PENGADUAN KELUAHAN PELANGGAN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 130px;">
+        <img src="/assets/TentangKami/Sejarah Untirta.png" class="img-fluid px-3" alt=""> 
+    </div>
+    <div class="card1 container rounded-3 mt-5" data-aos="fade-up">
+        <h4 class="py-2 text-center mx-auto rounded-3 mt-2" style="background-color: rgb(132,139,98); color: white; max-width: 350px;">PENDAHULUAN</h4>
+        <p style="text-align: justify;" class="px-2 pt-2">Sejarah Universitas Sultan Ageng Tirtayasa dimulai dari Yayasan Pendidikan Tirtayasa yang didirikan  tanggal 1 Oktober 1980, berkedudukan di Serang, Banten. Pendirian yayasan ini dikukuhkan berdasarkan Akte Notaris Rosita Wibisono, SH. No. 1 tanggal 1 Oktober 1980, yang kemudian diadakan perubahan melalui Akte Notaris Ny. R. Arie Soetardjo, SH. No. 1 tanggal 3 Maret 1986. Maksud dan  tujuan pendirian yayasan ini adalah : Membantu usaha-usaha pemerintah dalam bidang pendidikan umum. Mendirikan sekolah-sekolah mulai dari taman kanak-kanak sampai dengan perguruan tinggi, termasuk juga sekolah-sekolah kejuruan. Merencanakan dan mengusahakan sarana pendidikan, serta sarana olah raga.</p>
+        <p style="text-align: justify;" class="px-2"><strong>Universitas Sultan Ageng Tirtayasa (Untirta) adalah Perguruan Tinggi Negeri sebagai transformasi dari Perguruan Tinggi Swasta berdiri tahun tanggal 1 Oktober 1981 dan dinegerikan pada tanggal 9 Maret 2001 berdasarkan Keputusan Presiden Nomor : 32 Tahun 2001</strong> merupakan institusi tertinggi pendidikan formal bagi seorang yang ingin meningkatkan kualifikasi dan kompetensinya dalam berbagai disiplin ilmu pengetahuan sekaligus merupakan sebuah entitas dan komunitas yang mempunyai karakteristik tersendiri dalam struktur kehidupan masyarakat. Sebagai wujud kepedulian terhadap tujuan pembangunan nasional terutama dalam mencerdaskan bangsa, Untirta terus melakukan pengembangan dan pembaruan (develop and reform) untuk merespon kebutuhan stakeholders (mahasiswa, orangtua mahasiswa, masyarakat profesi dan masyarakat pengguna lulusan). Nilai Keteladanan yang akan menjadi penciri dan kekuatan kearifan lokal warga Untirta, dibangun dari dua sosok pergerakan Banten, yakni: Sultan Ageng Tirtayasa dan Syeikh Nawawi Al-Bantani. Kedua tokoh ini merupakan simbol dari kekuatan umaro dan ulama. Dua tokoh besar yang dilahirkan di bumi Banten ini telah diabadikan namanya menjadi nama Masjid Kampus Untirta “Syeikh Nawawi Al-Bantani”. Karakter Sultan Ageng Tirtayasa dan Syeikh Nawawi Al-Bantani, mewakili karakter kepemimpinan dan intelektual. Perpaduan karakter yang diperlukan dalam memimpin Universitas sebagai pusat keilmuan dan kepakaran serta pusat kaderisasi kepemimpinan nasional. Karakter dimaksud antara lain tercermin dalam sembilan karakter unggul, yaitu; 1). Cerdas, berpikir taktis dan strategis 2). Pantang menyerah, memiliki integritas watak, dan konfrontatif terhadap kezaliman 3). Inovatif dan kreatif 4). Visioner, peduli terhadap pengembangan ilmu dan pendidikan 5). Proaktif, responsif, dan berorientasi pada pelayanan 6). Membuka diri dan mampu membaca tantangan zaman 7). Komunikatif dan mampu bekerjasama 8). Moderat dan menghargai kemajemukan, serta 9). Menjaga nilai budaya lokal. Sembilan karakter inilah yang harus menjadi jati diri individu civitas akademika Untirta. Inilah modal dasar membangun Universitas menjadi institusi yang memiliki kewibawaan akademik dan intelektual, di lingkup daerah, regional, dan nasional menuju tataran World Class University.</p>
+        <p style="text-align: justify;" class="px-2 pt-2">Dengan sembilan nilai tersebut, Untirta berperan aktif sebagai lokomotif perubahan menuju terwujudnya Civil Society di bumi Banten. Berpijak pada sembilan nilai-nilai ini maka disepakati bahwa value yang dikembangkan dan harus dimplementasikan dalam berbagai aktivitas pelaksanaan tridharma perguruan tinggi, yaitu nilai JAWARA (Jujur, Adil, Wibawa, Amanah, Relijius dan Akuntabel), landasan nilai JAWARA inilah yang dibutuhkan untuk membangun terwujudnya Untirta sebagai Integrated, Smart dan Green (It’S Green) University KELAS DUNIA yang siap bersaing di tataran global dan menjadi kebanggaan masyarakat Banten. Usaha Untirta untuk menuju perguruan tinggi yang bertaraf internasional merupakan sebuah komitmen yang sudah dirintis, dirancang dan dipersiapkan sejak lama secara komprehensif dan partisipasif. Dengan semakin berkembangnya kompetisi dan kesadaran terhadap pentingnya mutu dan profesionalisme sejalan dengan telah diperolehnya Akreditasi Institusi “A” pada tahun 2019 dari Badan Akreditasi Nasional Perguruan Tinggi     (BAN-PT), maka langkah progres berikutnya adalah menuju internasionalisasi institusi. Informasi lebih lanjut mengenai Untirta dapat diakses melalui website resmi kami. Kami sangat senang bisa bertemu dengan Anda, para generasi muda Indonesia berbakat di Kampus kita tercinta. Semoga website ini dapat menjadi jembatan yang baik bagi Untirta dengan seluruh lapisan masyarakat.</p>
+    </div>
+
+      <div class="container-fluid mt-5" style="background-color:rgb(0,41,92);">
+        <h6 class="fw-light text text-center py-3" style="color: white;">© 2025 UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa. All Rights Reserved.</h6>
+      </div>
+
+      <a href="#" class="btn btn-success btn-floating rounded-circle shadow-lg float-button-wa" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+        <i style="font-size: 25px;" class="bi bi-whatsapp"></i>
+      </a>
+  
+      <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="whatsappModalLabel">Pilih Kontak WhatsApp</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="https://wa.me/6281234567890" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Yus Rama Denny
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://wa.me/6289876543210" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Nuryadi
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration: 1000,
+    delay: 100,
+});
+</script>
+
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: rgb(0,65,130);">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="/assets/web logoo.png" class="rounded" alt="Bootstrap" width="380" height="85">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse custom-width" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium ps-3" style="color: black;" href="../index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FASILITAS LABORATORIUM
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_nanomaterial.html">LABORATORIUM NANOMATERIAL</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_spektroskopi.html">LABORATORIUM SPEKTROSKOPI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_bioteknologi.html">LABORATORIUM BIOTEKNOLOGI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_permesinanIndustri.html">LABORATORIUM PERMESINAN INDUSTRI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_energiTerbarukan.html">LABORATORIUM ENERGI TERBARUKAN</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_mekatronika.html">LABORATORIUM MEKATRONIKA</a></li>
+                      <li><a class="dropdown-item" href="#">REKAMAN RIWAYAT PERALATAN</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TENTANG KAMI
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/TentangKami_html/sambutankepalaUPA.html">SAMBUTAN KEPALA UPA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/sejarahUntirta.html">SEJARAH UNTIRTA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/personil&strukturOrg.html">PERSONIL DAN STRUKTUR ORGANISASI</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/visi&misi.html">VISI DAN MISI</a></li>
+                      <li><a class="dropdown-item" href="#">COMPANY PROFILE UPA LAB TERPADU UNTIRTA</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LAYANAN PENGUJIAN/ANALISIS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">DAFTAR RUANG LINGKUP LAYANAN PENGUJIAN/ANALISIS</a></li>
+                  <li><a class="dropdown-item" href="#">KALIBRASI</a></li>
+                  <li><a class="dropdown-item" href="#">PENELITIAN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light fw-medium d-flex align-items-center" style="border-radius: 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <i class="bi bi-list me-2"></i> Menu
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="offcanvas offcanvas-end" style="background-color:rgb(0,65,130);" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+              <h5 class="offcanvas-title" style="color: white;" id="offcanvasMenuLabel">MENU LAINNYA</h5>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-group">
+                <li class="list-group-item fw-medium"><a href="#">KONTRIBUSI PUBLIKASI DAN SITASI</a></li>
+                <li class="list-group-item fw-medium"><a href="https://simlab.untirta.ac.id/">SIMLAB LAYANAN ANALISIS</a></li>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed fw-medium" style="color: black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        LABORATORIUM PENELITIAN/CENTER OF EXCELLENCE/PUI
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item1" href="https://icefory.untirta.ac.id/">PUI-PT INOVASI PANGAN LOKAL</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT INOVASI LIMBAH INDUSTRI UNTUK ENERGI TERBARUKAN DAN PRODUK OLAHANNYA</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT BANANA RESEARCH CENTER</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+                <li class="list-group-item fw-medium"><a href="#">JURNAL PENGELOLAAN LABORATORIUM PENDIDIKAN</a></li>
+                <li class="list-group-item fw-medium"><a href="#">RUANG LINGKUP PENGUJIAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/hLSk0">SURVEY KEPUASAN PELANGGAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/7MftR">PENGADUAN KELUAHAN PELANGGAN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 130px;" >
+        <div class="mt-4 ps-3" style="color: rgb(0,41,92);">
+            <h3 class="fw-bold">Pemanfaatan Spektroskopi dalam Analisis Material Modern</h3>
+        </div>
+        <div class="d-flex ps-3">
+            <h6> <i class="bi bi-person"></i> By Admin</h6>
+            <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+            <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+        </div>
+        <div class="mt-2 ps-3"><img src="/assets/artikel5.jpg" class="img-fluid" alt="..."></div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <p style="text-align: justify;">
+                Spektroskopi adalah teknik analisis yang digunakan untuk mempelajari interaksi antara materi dan radiasi elektromagnetik. Teknik ini sangat berguna dalam berbagai bidang ilmiah, seperti kimia, fisika, biologi, dan material science. Dalam konteks analisis material modern, spektroskopi memberikan wawasan yang sangat berharga mengenai struktur dan komposisi materi pada tingkat atom dan molekul. UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa (Untirta) menyediakan fasilitas spektroskopi yang canggih, yang memungkinkan para peneliti dan mahasiswa untuk mengeksplorasi potensi material baru dan aplikasinya dalam berbagai industri.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>1. Apa Itu Spektroskopi</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p style="text-align: justify;">
+                Spektroskopi melibatkan pengukuran spektrum radiasi elektromagnetik yang dipancarkan, diserap, atau dipantulkan oleh suatu bahan. Teknik ini dapat mengukur berbagai jenis radiasi, termasuk sinar ultraviolet (UV), cahaya tampak, inframerah (IR), dan gelombang mikro. Berdasarkan jenis radiasi yang digunakan dan interaksinya dengan materi, terdapat beberapa jenis spektroskopi yang berbeda, seperti spektroskopi UV-Vis, spektroskopi inframerah (IR), spektroskopi Raman, dan spektroskopi NMR (Nuclear Magnetic Resonance).
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>2. Jenis-jenis Spektroskopi yang Digunakan Dalam Analisis Material</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Di laboratorium nanomaterial dan material lainnya, berbagai jenis spektroskopi digunakan untuk menganalisis sifat fisik dan kimia material. Beberapa teknik spektroskopi yang paling umum digunakan meliputi:
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>a. Spektroskopi UV-Vis (Ultraviolet-Visible)</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi UV-Vis digunakan untuk mengukur absorbansi atau transmitansi radiasi ultraviolet dan cahaya tampak oleh suatu material. Teknik ini sangat berguna untuk mempelajari sifat elektron material, seperti tingkat energi dan transisi elektron dalam atom atau molekul. Di industri, spektroskopi UV-Vis digunakan untuk analisis kualitas bahan baku, termasuk bahan kimia dan farmasi, serta untuk mengukur konsentrasi berbagai senyawa dalam larutan.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>b. Spektroskopi Inframerah (IR)</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi IR mengukur interaksi antara radiasi inframerah dengan molekul yang mengakibatkan vibrasi dan rotasi ikatan kimia. Dengan mengamati spektrum inframerah, peneliti dapat mengidentifikasi gugus fungsional dalam molekul dan menganalisis struktur kimia bahan. Teknik ini sering digunakan dalam identifikasi senyawa organik dan analisis polimer, serta untuk mengukur kelembaban dan kandungan air dalam material.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>c. Spektroskopi Raman</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi Raman berfokus pada pengukuran perubahan frekuensi cahaya yang tersebar akibat interaksi dengan getaran molekul material. Teknik ini sangat berguna dalam analisis material keras dan lunak, termasuk grafena, karbon nanotube, dan material semikonduktor. Spektroskopi Raman memungkinkan untuk mengidentifikasi perubahan struktur material, mendeteksi cacat pada material, serta mempelajari sifat mekanik dan termal material.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>d. Spektroskopi NMR (Nuclear Magnetic Resonance)</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi NMR digunakan untuk mempelajari struktur molekul berdasarkan interaksi inti atom dengan medan magnet eksternal. Dalam konteks material modern, NMR sering digunakan untuk menganalisis struktur polimer, biomolekul, dan material komposit. Teknik ini sangat penting dalam penelitian material baru dan pengembangan produk berbasis molekul kompleks.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>3. Aplikasi Spektroskopi dalam Analisis Material Modern</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>a. Identifikasi dan Karakterisasi Material Baru</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi memungkinkan peneliti untuk mengidentifikasi material baru dengan cepat dan efisien. Dalam pengembangan nanomaterial, teknik spektroskopi digunakan untuk menganalisis sifat elektron dan struktur atom dari material pada skala nanometer. Ini memungkinkan peneliti untuk memahami potensi aplikasi material tersebut di industri elektronik, medis, dan energi.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>b. Pengendalian Kualitas dalam Industri Material</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi sangat berguna dalam pengendalian kualitas bahan baku dan produk jadi dalam industri material. Teknik ini dapat digunakan untuk memverifikasi komposisi material, mendeteksi kontaminan atau perubahan dalam struktur material yang dapat mempengaruhi kinerja produk. Sebagai contoh, dalam industri elektronik, spektroskopi digunakan untuk memeriksa kualitas semikonduktor dan komponen elektronik lainnya.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>c. Pemantauan Proses Produksi</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Dalam proses produksi material, spektroskopi digunakan untuk memantau perubahan komposisi atau struktur material selama proses manufaktur. Dengan memantau perubahan ini secara real-time, produksi dapat disesuaikan untuk memastikan kualitas material yang optimal. Misalnya, dalam produksi baja, spektroskopi digunakan untuk mengontrol kandungan karbon dan elemen lainnya untuk memastikan sifat mekanik yang diinginkan.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>d. Pengembangan Teknologi Energi Terbarukan</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi juga digunakan dalam pengembangan teknologi energi terbarukan. Dalam penelitian tentang material fotovoltaik untuk panel surya, spektroskopi membantu mempelajari interaksi cahaya dengan material semikonduktor untuk meningkatkan efisiensi konversi energi matahari. Teknik ini juga digunakan dalam riset baterai dan superkapasitor untuk meningkatkan kapasitas penyimpanan energi.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>e. Analisis Lingkungan</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi memiliki aplikasi dalam analisis polutan lingkungan, baik itu dalam udara, air, maupun tanah. Dengan menggunakan spektroskopi, para peneliti dapat mengidentifikasi dan mengukur konsentrasi polutan seperti logam berat, senyawa organik berbahaya, dan gas rumah kaca. Hal ini penting untuk menjaga keberlanjutan lingkungan dan mengurangi dampak negatif industri terhadap ekosistem.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>4. Keunggulan Penggunaan Spektroskopi dalam Analisis Material</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Beberapa keunggulan utama penggunaan spektroskopi dalam analisis material modern antara lain:
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <ul class="mb-0" style="text-align: justify;">
+                <li><strong>Sensitivitas Tinggi</strong>: Teknik spektroskopi dapat mendeteksi konsentrasi rendah dari material atau senyawa tertentu, bahkan dalam sampel yang sangat kecil.</li>
+                <li><strong>Tidak Merusak Sampel</strong>: Banyak teknik spektroskopi, seperti UV-Vis dan Raman, bersifat non-destruktif, yang berarti sampel material tetap utuh setelah analisis, memungkinkan untuk pengujian lebih lanjut.</li>
+                <li><strong>Penyediaan Data yang Cepat dan Akurat</strong>: Hasil analisis spektroskopi dapat diperoleh dengan cepat dan memberikan informasi yang sangat akurat mengenai komposisi material.</li>
+            </ul>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>5. UPA Laboratorium Terpadu Untirta: Fasilitas Spektroskopi untuk Penelitian dan Pengembangan</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Laboratorium Spektroskopi di UPA Laboratorium Terpadu Untirta dilengkapi dengan peralatan canggih yang memungkinkan penelitian mendalam tentang material baru dan aplikasinya. Para peneliti dan mahasiswa dapat memanfaatkan fasilitas ini untuk melakukan analisis komprehensif terhadap berbagai jenis material, mulai dari material biomolekuler hingga material teknologi tinggi, seperti nanomaterial dan material energi terbarukan.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>6. Kesimpulan</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Spektroskopi telah menjadi alat yang sangat penting dalam analisis material modern, memberikan pemahaman yang lebih mendalam mengenai sifat fisik dan kimia material. Dengan aplikasi yang luas di berbagai industri, mulai dari elektronika hingga energi terbarukan, spektroskopi akan terus memainkan peran vital dalam pengembangan teknologi dan inovasi material. UPA Laboratorium Terpadu Untirta terus mendukung penelitian spektroskopi dengan menyediakan fasilitas yang lengkap untuk menggali potensi material baru yang dapat memajukan berbagai sektor industri.
+            </p>
+        </div>
+    </div>
+
+      <div class="container-fluid mt-3" style="background-color:rgb(0,41,92);">
+        <h6 class="fw-light text text-center py-3" style="color: white;">© 2025 UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa. All Rights Reserved.</h6>
+      </div>
+
+      <a href="#" class="btn btn-success btn-floating rounded-circle shadow-lg float-button-wa" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+        <i style="font-size: 25px;" class="bi bi-whatsapp"></i>
+      </a>
+  
+      <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="whatsappModalLabel">Pilih Kontak WhatsApp</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="https://wa.me/6281234567890" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Yus Rama Denny
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://wa.me/6289876543210" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Nuryadi
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration: 1000,
+    delay: 100,
+});
+</script>
+
+</html>

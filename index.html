@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayas</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: rgb(0,65,130);">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="assets/web logoo.png" class="rounded" alt="Bootstrap" width="380" height="85">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse custom-width" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium ps-3" style="color: black;" href="index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FASILITAS LABORATORIUM
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="/fasilitasLab_html/laboratorium_nanomaterial.html">LABORATORIUM NANOMATERIAL</a></li>
+                      <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="/fasilitasLab_html/laboratorium_spektroskopi.html">LABORATORIUM SPEKTROSKOPI</a></li>
+                      <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="/fasilitasLab_html/laboratorium_bioteknologi.html">LABORATORIUM BIOTEKNOLOGI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_permesinanIndustri.html">LABORATORIUM PERMESINAN INDUSTRI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_energiTerbarukan.html">LABORATORIUM ENERGI TERBARUKAN</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_mekatronika.html">LABORATORIUM MEKATRONIKA</a></li>
+                      <li><a class="dropdown-item" href="#">REKAMAN RIWAYAT PERALATAN</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TENTANG KAMI
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/TentangKami_html/sambutankepalaUPA.html">SAMBUTAN KEPALA UPA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/sejarahUntirta.html">SEJARAH UNTIRTA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/personil&strukturOrg.html">PERSONIL DAN STRUKTUR ORGANISASI</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/visi&misi.html">VISI DAN MISI</a></li>
+                      <li><a class="dropdown-item" href="#">COMPANY PROFILE UPA LAB TERPADU UNTIRTA</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LAYANAN PENGUJIAN/ANALISIS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">DAFTAR RUANG LINGKUP LAYANAN PENGUJIAN/ANALISIS</a></li>
+                  <li><a class="dropdown-item" href="#">KALIBRASI</a></li>
+                  <li><a class="dropdown-item" href="#">PENELITIAN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light fw-medium d-flex align-items-center" style="border-radius: 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <i class="bi bi-list me-2"></i> Menu
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="offcanvas offcanvas-end" style="background-color:rgb(0,65,130);" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+              <h5 class="offcanvas-title" style="color: white;" id="offcanvasMenuLabel">MENU LAINNYA</h5>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-group">
+                <li class="list-group-item fw-medium"><a href="#">KONTRIBUSI PUBLIKASI DAN SITASI</a></li>
+                <li class="list-group-item fw-medium"><a href="https://simlab.untirta.ac.id/">SIMLAB LAYANAN ANALISIS</a></li>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed fw-medium" style="color: black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        LABORATORIUM PENELITIAN/CENTER OF EXCELLENCE/PUI
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item1" href="https://icefory.untirta.ac.id/">PUI-PT INOVASI PANGAN LOKAL</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT INOVASI LIMBAH INDUSTRI UNTUK ENERGI TERBARUKAN DAN PRODUK OLAHANNYA</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT BANANA RESEARCH CENTER</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+                <li class="list-group-item fw-medium"><a href="#">JURNAL PENGELOLAAN LABORATORIUM PENDIDIKAN</a></li>
+                <li class="list-group-item fw-medium"><a href="#">RUANG LINGKUP PENGUJIAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/hLSk0">SURVEY KEPUASAN PELANGGAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/7MftR">PENGADUAN KELUAHAN PELANGGAN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <img src="/assets/sindangpic.jpeg" class="img-fluid mt-5 overflow-hidden" width="100%" alt="...">
+
+    <div class="container-fluid">
+      <div class="text-center mt-3">
+        <span class="material-symbols-outlined nohov" style="font-size: 100px;">
+          expand_circle_down
+        </span>
+        <h3 class="fw-bold fs-5">ARTIKEL KAMI</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: rgb(0,65,130); border-top-left-radius: 10%; border-top-right-radius: 10%; border: 4px black solid;">
+      <div id="carouselExampleAutoplaying" class="carousel slide custom-carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner rounded-5 mt-4 mb-4" data-aos="fade-up">
+          <div class="carousel-item active">
+            <a href="/artikel_html/artikel1.html" target="_blank" rel="noopener noreferrer"><img src="/assets/artikelnew/artikel1new.jpeg" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="/artikel_html/artikel2.html" target="_blank" rel="noopener noreferrer"><img src="/assets/artikelnew/artikel2new.jpeg" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="/artikel_html/artikel3.html" target="_blank" rel="noopener noreferrer"><img src="/assets/artikelnew/artikel3new.jpeg" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="/artikel_html/artikel4.html" target="_blank" rel="noopener noreferrer"><img src="/assets/artikelnew/artikel4new.jpeg" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="/artikel_html/artikel5.html" target="_blank" rel="noopener noreferrer"><img src="/assets/artikelnew/artikel5new.jpeg" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="/artikel_html/artikel6.html" target="_blank" rel="noopener noreferrer"><img src="/assets/artikelnew/artikel6new.jpeg" class="d-block w-100" alt="..."></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 border-bottom">
+      <div style="background-color:rgb(0,41,92); color: white;">
+          <h4 class="pt-1 pb-2 ps-3">Latest Post</h4>
+      </div>
+      <div class="mt-4">
+          <a style="text-decoration: none;" href="/artikel_html/artikel1.html" target="_blank" rel="noopener noreferrer">
+            <h3 class="fw-bold" style="color: rgb(0,41,92);">PENGARUH TEKNOLOGI LABORATORIUM DALAM PENINGKATAN KUALITAS PENDIDIKAN</h3>
+          </a>
+      </div>
+      <div class="d-flex">
+        <h6> <i class="bi bi-person"></i> By Admin</h6>
+        <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+        <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+      </div>
+      <div class="container-fluid mt-4">
+        <div class="row position-relative pb-3">
+          <div class="col-md">
+            <img class="img-fluid rounded-5" src="/assets/artikel1.jpg" alt="">
+          </div>
+          <div class="col-md pt-4">
+            <p style="text-align: justify;">
+              Teknologi laboratorium memainkan peran yang sangat penting dalam meningkatkan kualitas pendidikan, khususnya di bidang sains dan teknologi. Dengan adanya fasilitas laboratorium yang lengkap dan modern, mahasiswa dapat melakukan eksperimen praktis yang memperdalam pemahaman mereka terhadap teori yang dipelajari di kelas. Penggunaan alat-alat canggih di laboratorium memungkinkan mahasiswa untuk terlibat langsung dalam proses riset dan inovasi,…
+            </p>
+            <a href="/artikel_html/artikel1.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-lg btn1 fw-bold" style="background-color:rgb(0,65,130); color: white;">SELENGKAPNYA</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 border-bottom">
+      <div class="mt-4">
+        <a style="text-decoration: none;" href="/artikel_html/artikel2.html" target="_blank" rel="noopener noreferrer">
+          <h3 style="color: rgb(0,41,92);" class="fw-bold">Teknologi Canggih di Laboratorium: Membuka Peluang Karir di Bidang Sains dan Teknologi</h3>
+        </a>
+      </div>
+      <div class="d-flex">
+        <h6> <i class="bi bi-person"></i> By Admin</h6>
+        <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+        <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+      </div>
+      <div class="container-fluid mt-4">
+        <div class="row position-relative pb-3">
+          <div class="col-md">
+            <img class="img-fluid rounded-5" src="/assets/artikel2.jpg" alt="">
+          </div>
+          <div class="col-md pt-4">
+            <p style="text-align: justify;">
+              Laboratorium di Universitas Sultan Ageng Tirtayasa (Untirta) dilengkapi dengan berbagai teknologi canggih yang memungkinkan mahasiswa dan peneliti untuk mengeksplorasi berbagai bidang ilmu, mulai dari nanomaterial hingga energi terbarukan. Dengan alat dan fasilitas modern, seperti mikroskop elektron, spektrometer, serta perangkat robotik dan otomatisasi, laboratorium ini memberikan pengalaman praktis yang sangat penting dalam mendalami teori yang diajarkan…
+            </p>
+            <a href="/artikel_html/artikel2.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-lg btn1 fw-bold" style="background-color:rgb(0,65,130); color: white;">SELENGKAPNYA</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 border-bottom">
+      <div class="mt-4">
+        <a style="text-decoration: none;" href="/artikel_html/artikel3.html" target="_blank" rel="noopener noreferrer">
+          <h3 style="color: rgb(0,41,92);" class="fw-bold">
+            Mengoptimalkan Pemanfaatan Sumber Daya Alam Melalui Riset di Laboratorium
+            <span style="display: block;">Energi Terbarukan</span>
+          </h3>
+        </a>
+      </div>
+      <div class="d-flex">
+        <h6> <i class="bi bi-person"></i> By Admin</h6>
+        <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+        <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+      </div>
+      <div class="container-fluid mt-4">
+        <div class="row position-relative pb-3">
+          <div class="col-md">
+            <img class="img-fluid rounded-5" src="/assets/artikel3.jpg" alt="">
+          </div>
+          <div class="col-md pt-4">
+            <p style="text-align: justify;">
+              Laboratorium Energi Terbarukan di UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa berperan penting dalam mengembangkan teknologi yang berfokus pada pemanfaatan sumber daya alam yang ramah lingkungan. Dengan mengintegrasikan berbagai jenis energi terbarukan, seperti energi surya, angin, dan biomassa, laboratorium ini melakukan riset untuk menciptakan solusi inovatif yang dapat mengurangi ketergantungan pada energi fosil. Penelitian di…
+            </p>
+            <a href="/artikel_html/artikel3.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-lg btn1 fw-bold" style="background-color:rgb(0,65,130); color: white;">SELENGKAPNYA</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 border-bottom">
+      <div class="mt-4" style="color: rgb(0,41,92);">
+        <a style="text-decoration: none;" href="/artikel_html/artikel4.html" target="_blank" rel="noopener noreferrer">
+          <h3 class="fw-bold" style="color: rgb(0,41,92);">
+            Pentingnya Laboratorium dalam Menyiapkan Generasi Peneliti dan Inovator Masa Depan
+          </h3>
+        </a>
+      </div>
+      <div class="d-flex">
+        <h6> <i class="bi bi-person"></i> By Admin</h6>
+        <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+        <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+      </div>
+      <div class="container-fluid mt-4">
+        <div class="row position-relative pb-3">
+          <div class="col-md">
+            <img class="img-fluid rounded-5" src="/assets/artikel4.jpg" alt="">
+          </div>
+          <div class="col-md pt-4">
+            <p style="text-align: justify;">
+              Laboratorium merupakan pusat pembelajaran dan penelitian yang memainkan peran vital dalam mencetak generasi peneliti dan inovator masa depan. Dengan menyediakan fasilitas dan teknologi terkini, laboratorium memberi kesempatan bagi mahasiswa dan peneliti untuk mengembangkan keterampilan praktis yang mendalam. Di sinilah teori yang dipelajari di ruang kelas diuji dan diterapkan dalam bentuk eksperimen nyata, memungkinkan mereka untuk…
+            </p>
+            <a href="/artikel_html/artikel4.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-lg btn1 fw-bold" style="background-color:rgb(0,65,130); color: white;">SELENGKAPNYA</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 border-bottom">
+      <div class="mt-4" style="color: rgb(0,41,92);">
+        <a style="text-decoration: none;" href="/artikel_html/artikel5.html" target="_blank" rel="noopener noreferrer">
+          <h3 class="fw-bold" style="color: rgb(0,41,92);">
+            Pemanfaatan Spektroskopi dalam Analisis Material Modern
+          </h3>
+        </a>
+      </div>
+      <div class="d-flex">
+        <h6> <i class="bi bi-person"></i> By Admin</h6>
+        <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+        <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+      </div>
+      <div class="container-fluid mt-4">
+        <div class="row position-relative pb-3">
+          <div class="col-md">
+            <img class="img-fluid rounded-5" src="/assets/artikel5.jpg" alt="">
+          </div>
+          <div class="col-md pt-4">
+            <p style="text-align: justify;">
+              Spektroskopi adalah teknik analisis yang digunakan untuk mempelajari interaksi antara materi dan radiasi elektromagnetik. Teknik ini sangat berguna dalam berbagai bidang ilmiah, seperti kimia, fisika, biologi, dan material science. Dalam konteks analisis material modern, spektroskopi memberikan wawasan yang sangat berharga mengenai struktur dan komposisi materi pada tingkat atom dan molekul. UPA Laboratorium Terpadu Universitas Sultan…
+            </p>
+            <a href="/artikel_html/artikel5.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-lg btn1 fw-bold" style="background-color:rgb(0,65,130); color: white;">SELENGKAPNYA</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 border-bottom">
+      <div class="mt-4">
+        <a style="text-decoration: none;" href="/artikel_html/artikel6.html" target="_blank" rel="noopener noreferrer">
+          <h3 class="fw-bold" style="color: rgb(0,41,92);">
+            Inovasi Nanomaterial: Solusi Masa Depan di Berbagai Industri
+          </h3>
+        </a>
+      </div>
+      <div class="d-flex">
+        <h6> <i class="bi bi-person"></i> By Admin</h6>
+        <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+        <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+      </div>
+      <div class="container-fluid mt-4">
+        <div class="row position-relative pb-3">
+          <div class="col-md">
+            <img class="img-fluid rounded-5" src="/assets/artikel6.jpg" alt="">
+          </div>
+          <div class="col-md pt-4">
+            <p style="text-align: justify;">
+              Nanomaterial adalah bahan dengan struktur yang sangat kecil, biasanya diukur dalam skala nanometer (satu milyar bagian dari satu meter). Meskipun berukuran sangat kecil, nanomaterial memiliki sifat unik yang tidak dimiliki oleh material pada skala yang lebih besar. Inovasi dalam nanomaterial kini menjadi salah satu bidang riset yang menjanjikan, terutama dalam dunia industri, medis, dan lingkungan….
+            </p>
+            <a href="/artikel_html/artikel6.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-lg btn1 fw-bold" style="background-color:rgb(0,65,130); color: white;">SELENGKAPNYA</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+      <div class="py-1 text-center mx-auto rounded-5" style="background-color:rgb(0,41,92); width: 250px;">
+        <h3 style="color: white;" >LOKASI KAMI</h3>
+      </div>
+      <div class="container-fluid mt-3" data-aos="fade-left">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+            <div class="ratio ratio-16x9">
+              <iframe class="rounded-5"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7933.096958847687!2d106.125233!3d-6.191118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4221c88bd16d15%3A0x2fb4af2bfbdf18fe!2sUPA%20LABORATORIUM%20TERPADU%20UNIVERSITAS%20SULTAN%20AGENG%20TIRTAYASA%20SINDANGSARI!5e0!3m2!1sid!2sid!4v1736477743254!5m2!1sid!2sid"
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid rb mt-4">
+      <div class="row mt-4">
+        <div class="col-md mb-3">
+          <div style="border: 2px grey solid; border-radius: 5px;">
+            <div style="background-color:rgb(0,41,92)">
+              <h6 class="fw-bold ps-3 py-2" style="color: white;">TENTANG KAMI</h6>
+            </div>
+            <p class="pt-3 mx-2" style="text-align: justify;">UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa (Untirta) adalah pusat layanan laboratorium yang dirancang untuk mendukung kegiatan penelitian, pengembangan, dan pendidikan di berbagai bidang ilmu. Berkomitmen menjadi laboratorium unggulan, kami melayani civitas akademika, masyarakat, dan dunia industri dengan fasilitas modern serta tenaga ahli yang kompeten.</p>
+          </div>
+        </div>
+
+        <div class="col-md mb-3">
+          <div style="border: 2px grey solid; border-radius: 5px; height: 270px;">
+            <div style="background-color:rgb(0,41,92)">
+              <h6 class="fw-bold ps-3 py-2" style="color: white;">FASILITAS LABORATORIUM</h6>
+            </div>
+            <div class="mx-2">
+              <a style="text-decoration: none;" href="/fasilitasLab_html/laboratorium_nanomaterial.html">
+                <p class="pt-2 mb-0" style="text-align: justify;">Laboratorium Nanomaterial</p>
+              </a>
+              <a style="text-decoration: none;" href="/fasilitasLab_html/laboratorium_spektroskopi.html">
+                <p class="my-0 pt-2" style="text-align: justify;">Laboratorium Spektroskopi</p>
+              </a>
+              <a style="text-decoration: none;" href="/fasilitasLab_html/laboratorium_bioteknologi.html">
+                <p class="my-0 pt-2" style="text-align: justify;">Laboratorium Bioteknologi</p>
+              </a>
+              <a style="text-decoration: none;" href="/fasilitasLab_html/laboratorium_permesinanIndustri.html">
+                <p class="my-0 pt-2" style="text-align: justify;">Laboratorium Permesinan Industri</p>
+              </a>
+              <a style="text-decoration: none;" href="/fasilitasLab_html/laboratorium_energiTerbarukan.html">
+                <p class="my-0 pt-2" style="text-align: justify;">Laboratorium Energi Terbarukan</p>
+              </a>
+              <a style="text-decoration: none;" href="/fasilitasLab_html/laboratorium_mekatronika.html">
+                <p class="pt-2" style="text-align: justify;">Laboratorium Mekatronika</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md mb-3">
+          <div style="border: 2px grey solid; border-radius: 5px; height: 270px;">
+            <div style="background-color:rgb(0,41,92)">
+              <h6 class="fw-bold ps-3 py-2" style="color: white;">KONTAK KAMI</h6>
+            </div>
+            <div class="mx-2">
+              <p class="pt-2 mb-0" style="text-align: justify;"><i class="bi bi-geo-alt"></i> Jl. Raya Palka Km 3 Sindangsari, Pabuaran, Kab. Serang Provinsi Banten</p>
+              <p class="pt-2 mb-0" style="text-align: justify;"><i class="bi bi-telephone"></i> +62254 280330</p>
+              <p class="pt-2 mb-0" style="text-align: justify;"><i class="bi bi-envelope"></i> humas@untirta.ac.id</p>
+            </div>
+            <div class="b1 d-flex justify-content-around mt-4">
+              <div class="pt-2 text-center whatsapp-icon">
+                <a href="https://wa.me/085719760769"><i class="bi bi-whatsapp fs-4" style="color: green;"></i></a>
+                <p>Yus Rama Denny, Ph.D</p>
+              </div>
+              <div class="pt-2 text-center whatsapp-icon">
+                <a href="https://wa.me/087777486503"><i class="bi bi-whatsapp fs-4" style="color: green;"></i></a>
+                <p>Nuryadi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="background-color:rgb(0,41,92);">
+      <h6 class="fw-light text text-center py-3" style="color: white;">© 2025 UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa. All Rights Reserved.</h6>
+    </div>
+
+    <a href="#" class="btn btn-success btn-floating rounded-circle shadow-lg float-button-wa" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+      <i style="font-size: 25px;" class="bi bi-whatsapp"></i>
+    </a>
+
+    <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="whatsappModalLabel">Pilih Kontak WhatsApp</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="https://wa.me/6281234567890" target="_blank" class="text-decoration-none">
+                  <i class="bi bi-whatsapp me-2"></i> Yus Rama Denny
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://wa.me/6289876543210" target="_blank" class="text-decoration-none">
+                  <i class="bi bi-whatsapp me-2"></i> Nuryadi
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      delay: 100,
+    });
+  </script>
+</html>

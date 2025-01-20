@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: rgb(0,65,130);">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="/assets/web logoo.png" class="rounded" alt="Bootstrap" width="380" height="85">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse custom-width" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium ps-3" style="color: black;" href="../index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FASILITAS LABORATORIUM
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_nanomaterial.html">LABORATORIUM NANOMATERIAL</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_spektroskopi.html">LABORATORIUM SPEKTROSKOPI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_bioteknologi.html">LABORATORIUM BIOTEKNOLOGI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_permesinanIndustri.html">LABORATORIUM PERMESINAN INDUSTRI</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_energiTerbarukan.html">LABORATORIUM ENERGI TERBARUKAN</a></li>
+                      <li><a class="dropdown-item" href="/fasilitasLab_html/laboratorium_mekatronika.html">LABORATORIUM MEKATRONIKA</a></li>
+                      <li><a class="dropdown-item" href="#">REKAMAN RIWAYAT PERALATAN</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TENTANG KAMI
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/TentangKami_html/sambutankepalaUPA.html">SAMBUTAN KEPALA UPA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/sejarahUntirta.html">SEJARAH UNTIRTA</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/personil&strukturOrg.html">PERSONIL DAN STRUKTUR ORGANISASI</a></li>
+                      <li><a class="dropdown-item" href="/TentangKami_html/visi&misi.html">VISI DAN MISI</a></li>
+                      <li><a class="dropdown-item" href="#">COMPANY PROFILE UPA LAB TERPADU UNTIRTA</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-medium ps-3" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LAYANAN PENGUJIAN/ANALISIS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">DAFTAR RUANG LINGKUP LAYANAN PENGUJIAN/ANALISIS</a></li>
+                  <li><a class="dropdown-item" href="#">KALIBRASI</a></li>
+                  <li><a class="dropdown-item" href="#">PENELITIAN</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light fw-medium d-flex align-items-center" style="border-radius: 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <i class="bi bi-list me-2"></i> Menu
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="offcanvas offcanvas-end" style="background-color:rgb(0,65,130);" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+              <h5 class="offcanvas-title" style="color: white;" id="offcanvasMenuLabel">MENU LAINNYA</h5>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-group">
+                <li class="list-group-item fw-medium"><a href="#">KONTRIBUSI PUBLIKASI DAN SITASI</a></li>
+                <li class="list-group-item fw-medium"><a href="https://simlab.untirta.ac.id/">SIMLAB LAYANAN ANALISIS</a></li>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed fw-medium" style="color: black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        LABORATORIUM PENELITIAN/CENTER OF EXCELLENCE/PUI
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a class="dropdown-item1" href="https://icefory.untirta.ac.id/">PUI-PT INOVASI PANGAN LOKAL</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT INOVASI LIMBAH INDUSTRI UNTUK ENERGI TERBARUKAN DAN PRODUK OLAHANNYA</a></li>
+                          <li class="mt-3"><a class="dropdown-item1" href="#">PUI-PT BANANA RESEARCH CENTER</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+                <li class="list-group-item fw-medium"><a href="#">JURNAL PENGELOLAAN LABORATORIUM PENDIDIKAN</a></li>
+                <li class="list-group-item fw-medium"><a href="#">RUANG LINGKUP PENGUJIAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/hLSk0">SURVEY KEPUASAN PELANGGAN</a></li>
+                <li class="list-group-item fw-medium"><a href="https://link.untirta.ac.id/7MftR">PENGADUAN KELUAHAN PELANGGAN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 130px;" >
+        <div class="mt-4 ps-3" style="color: rgb(0,41,92);">
+            <h3 class="fw-bold">Inovasi Nanomaterial: Solusi Masa Depan di Berbagai Industri</h3>
+        </div>
+        <div class="d-flex ps-3">
+            <h6> <i class="bi bi-person"></i> By Admin</h6>
+            <h6> <i class="bi bi-calendar2-week ps-3"></i> 2 Desember 2024</h6>
+            <h6> <i class="bi bi-book ps-3"></i> Artikel</h6>
+        </div>
+        <div class="mt-2 ps-3"><img src="/assets/artikel6.jpg" class="img-fluid" alt="..."></div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <p style="text-align: justify;">
+                Nanomaterial adalah bahan dengan struktur yang sangat kecil, biasanya diukur dalam skala nanometer (satu milyar bagian dari satu meter). Meskipun berukuran sangat kecil, nanomaterial memiliki sifat unik yang tidak dimiliki oleh material pada skala yang lebih besar. Inovasi dalam nanomaterial kini menjadi salah satu bidang riset yang menjanjikan, terutama dalam dunia industri, medis, dan lingkungan. Laboratorium nanomaterial di UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa (Untirta) menjadi salah satu pusat pengembangan riset yang mendalam tentang material nano dan aplikasinya yang dapat membawa perubahan besar bagi berbagai sektor.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>1. Apa Itu Nanomaterial</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p style="text-align: justify;">
+                Nanomaterial adalah bahan dengan ukuran partikel yang sangat kecil, sering kali berada pada skala satu hingga seratus nanometer. Pada ukuran ini, nanomaterial memiliki sifat-sifat fisik dan kimia yang berbeda dengan material yang lebih besar. Sebagai contoh, nanomaterial dapat lebih ringan, lebih kuat, dan memiliki konduktivitas yang lebih tinggi, membuatnya sangat berpotensi untuk digunakan dalam berbagai aplikasi teknologi dan industri.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>2. Aplikasi Nanomaterial dalam Berbagai Industri</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>a. Industri Elektronik</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Salah satu aplikasi nanomaterial yang paling terkenal adalah dalam industri elektronik. Nanomaterial digunakan untuk mengembangkan perangkat elektronik yang lebih kecil, lebih cepat, dan lebih efisien. Contoh paling nyata adalah dalam pembuatan chip komputer, di mana penggunaan nanomaterial memungkinkan miniaturisasi perangkat keras dengan tetap mempertahankan atau bahkan meningkatkan performanya. Selain itu, nanomaterial seperti graphene juga digunakan dalam pembuatan layar fleksibel dan transistor yang lebih kecil dan lebih cepat.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>b. Industri Medis</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Di bidang medis, nanomaterial memiliki potensi yang sangat besar. Salah satu aplikasi utamanya adalah dalam pengembangan obat yang dapat menargetkan sel-sel tertentu di dalam tubuh, seperti sel kanker. Dengan kemampuan untuk membawa obat secara tepat ke lokasi yang dibutuhkan, nanomaterial dapat meningkatkan efektivitas terapi dan mengurangi efek samping. Nanomaterial juga digunakan dalam pembuatan alat diagnostik canggih dan perangkat medis yang lebih kecil dan lebih efisien.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>c. Industri Energi</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Nanomaterial juga memainkan peran penting dalam pengembangan teknologi energi terbarukan. Misalnya, dalam pembuatan panel surya, nanomaterial dapat digunakan untuk meningkatkan efisiensi konversi energi matahari menjadi energi listrik. Selain itu, nanomaterial dapat digunakan dalam penyimpanan energi, seperti baterai dan superkapasitor, untuk meningkatkan kapasitas dan daya tahan penyimpanan energi.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-1">
+            <h4>d. Industri Lingkungan</h4>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Dalam sektor lingkungan, nanomaterial digunakan untuk menyaring polutan atau mengurangi dampak negatif limbah industri. Misalnya, nanopartikel dapat digunakan untuk menyaring logam berat dari air, atau dalam teknologi pembersihan udara untuk mengurangi emisi gas rumah kaca dan polutan berbahaya. Nanomaterial juga berperan dalam pengembangan teknologi ramah lingkungan yang membantu mengurangi jejak karbon di seluruh dunia.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>3. Keunggulan Nanomaterial</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Nanomaterial memiliki beberapa keunggulan dibandingkan dengan material konvensional, seperti:
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-2">
+            <ul class="mb-0" style="text-align: justify;">
+                <li><strong>Kekuatan Tinggi</strong>: Beberapa nanomaterial, seperti nanotube karbon, memiliki kekuatan tarik yang luar biasa, menjadikannya ideal untuk digunakan dalam material konstruksi dan komponen mesin.</li>
+                <li><strong>Ringan dan Fleksibel</strong>: Nanomaterial sering kali lebih ringan dibandingkan dengan material tradisional, dan beberapa di antaranya memiliki sifat fleksibel yang memungkinkan mereka digunakan dalam aplikasi baru seperti layar fleksibel atau pakaian pintar.</li>
+                <li><strong>Konduktivitas Listrik dan Termal yang Lebih Baik</strong>: Nanomaterial seperti graphene dikenal memiliki konduktivitas listrik dan termal yang sangat baik, yang membuka peluang untuk pengembangan perangkat elektronik yang lebih efisien dan sistem pendinginan yang lebih baik.</li>
+                <li><strong>Reaktivitas Kimia</strong>: Dengan ukuran yang sangat kecil, nanomaterial memiliki luas permukaan yang sangat besar, meningkatkan reaktivitas kimianya. Hal ini sangat bermanfaat dalam aplikasi katalisis dan proses kimia.</li>
+            </ul>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>4. Tantangan dalam Pengembangan Nanomaterial</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Meskipun nanomaterial menawarkan potensi besar, pengembangan dan penerapannya juga menghadapi beberapa tantangan, seperti:
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 ps-3 pt-2">
+            <ul class="mb-0" style="text-align: justify;">
+                <li><strong>Biaya Produksi</strong>: Produksi nanomaterial dalam jumlah besar dengan kualitas yang konsisten masih menjadi tantangan dari segi biaya. Penelitian terus dilakukan untuk menemukan cara-cara yang lebih efisien dalam memproduksi nanomaterial.</li>
+                <li><strong>Keselamatan dan Dampak Lingkungan</strong>: Nanomaterial dapat memiliki dampak yang tidak terduga pada kesehatan manusia dan lingkungan. Oleh karena itu, penelitian dalam aspek keselamatan dan toksisitas nanomaterial menjadi sangat penting untuk memastikan penggunaannya yang aman.</li>
+                <li><strong>Regulasi</strong>: Penggunaan nanomaterial dalam produk komersial memerlukan regulasi yang ketat untuk memastikan bahwa produk tersebut aman digunakan. Pengembangan regulasi yang efektif untuk nanomaterial masih dalam tahap pengembangan di banyak negara.</li>
+            </ul>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>5. UPA Laboratorium Terpadu Untirta: Pusat Penelitian Nanomaterial</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                UPA Laboratorium Terpadu Untirta menyediakan fasilitas yang lengkap untuk penelitian nanomaterial, dengan berbagai alat canggih untuk sintesis dan karakterisasi material nano. Melalui kolaborasi dengan berbagai universitas dan industri, laboratorium ini menjadi pusat inovasi yang berfokus pada pengembangan nanomaterial untuk berbagai aplikasi industri. Dengan adanya fasilitas ini, Untirta berkomitmen untuk mendukung pengembangan teknologi yang ramah lingkungan dan berbasis sains untuk masa depan yang lebih baik.
+            </p>
+        </div>
+        <div class="container ps-0 ms-0 mt-3 ps-3">
+            <h2>6. Kesimpulan</h2>
+        </div>
+        <div class="container ps-0 ms-0 ps-3">
+            <p class="mb-0" style="text-align: justify;">
+                Inovasi nanomaterial menawarkan solusi untuk berbagai tantangan yang dihadapi oleh industri saat ini, dari pengembangan teknologi yang lebih efisien hingga penanganan masalah lingkungan yang lebih efektif. Dengan penelitian yang terus berkembang dan aplikasi yang semakin luas, nanomaterial menjadi kunci untuk masa depan industri, kesehatan, dan keberlanjutan. UPA Laboratorium Terpadu Untirta berperan penting dalam menciptakan inovasi di bidang ini, membawa potensi nanomaterial lebih dekat ke implementasi nyata di masyarakat.
+            </p>
+        </div>
+    </div>
+
+      <div class="container-fluid mt-3" style="background-color:rgb(0,41,92);">
+        <h6 class="fw-light text text-center py-3" style="color: white;">© 2025 UPA Laboratorium Terpadu Universitas Sultan Ageng Tirtayasa. All Rights Reserved.</h6>
+      </div>
+
+      <a href="#" class="btn btn-success btn-floating rounded-circle shadow-lg float-button-wa" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+        <i style="font-size: 25px;" class="bi bi-whatsapp"></i>
+      </a>
+  
+      <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="whatsappModalLabel">Pilih Kontak WhatsApp</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="https://wa.me/6281234567890" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Yus Rama Denny
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://wa.me/6289876543210" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-whatsapp me-2"></i> Nuryadi
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration: 1000,
+    delay: 100,
+});
+</script>
+
+</html>
