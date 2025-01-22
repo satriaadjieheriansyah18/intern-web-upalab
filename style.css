@@ -38,6 +38,11 @@ html, body {
       font-size: 70px!important; /* Ukuran lebih kecil di layar kecil */
     }
 }
+@media (max-width: 576px) {
+    .spektros {
+      margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
+    }
+}
 
 .navbar-nav {
     flex-wrap: wrap; /* Membungkus item jika tidak cukup ruang */
