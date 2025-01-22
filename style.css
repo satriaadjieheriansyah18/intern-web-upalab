@@ -29,7 +29,7 @@ html, body {
 
 @media (max-width: 991px) {
     .navbar-brand img {
-      width: 200px; /* Kurangi ukuran logo */
+      width: 300px; /* Kurangi ukuran logo */
     }
 }
 
