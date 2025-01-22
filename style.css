@@ -33,6 +33,12 @@ html, body {
     }
 }
 
+@media (max-width: 576px) {
+    .material-symbols-outlined {
+      font-size: 70px!important; /* Ukuran lebih kecil di layar kecil */
+    }
+}
+
 .navbar-nav {
     flex-wrap: wrap; /* Membungkus item jika tidak cukup ruang */
 }
