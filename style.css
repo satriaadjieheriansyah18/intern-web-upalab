@@ -118,6 +118,13 @@ html, body {
     background-color: rgb(207,226,255); /* Mendukung pembungkusan teks */
 }
 
+.cobdrow {
+    max-width: 400px; /* Atur lebar maksimum */
+    white-space: nowrap; /* Cegah teks turun ke baris berikutnya */
+    overflow: hidden; /* Sembunyikan teks yang melebihi lebar */
+    text-overflow: ellipsis; /* Tambahkan titik tiga (...) */
+  }
+
 .dropdown-item1{
     text-decoration: none;
     color: black;
