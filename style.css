@@ -9,10 +9,28 @@ html, body {
   width: 100%;        /* Pastikan lebar sesuai viewport */
 }
 
+.navbar{
+    flex-wrap: nowrap;
+}
 
+.navbar-toggler {
+    margin-left: auto;
+}
 .custom-width{
+    flex-wrap: nowrap;
     background-color:#ffffff;
     border-radius: 20px;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand img {
+      width: 200px; /* Kurangi ukuran logo */
+    }
 }
 
 .navbar-nav {
