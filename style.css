@@ -78,11 +78,6 @@ html, body {
       margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
     }
 }
-@media (max-width: 576px) {
-    .bd1 {
-      height: 850px!important; /* Ukuran lebih kecil di layar kecil */
-    }
-}
 
 .navbar-nav {
     flex-wrap: wrap; /* Membungkus item jika tidak cukup ruang */
@@ -124,7 +119,7 @@ html, body {
 }
 
 .cobdrow {
-    max-width: 400px; /* Atur lebar maksimum */
+    max-width: 320px; /* Atur lebar maksimum */
     white-space: nowrap; /* Cegah teks turun ke baris berikutnya */
     overflow: hidden; /* Sembunyikan teks yang melebihi lebar */
     text-overflow: ellipsis; /* Tambahkan titik tiga (...) */
