@@ -84,6 +84,11 @@ html, body {
     }
 }
 @media (max-width: 576px) {
+    .art1 {
+      margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
+    }
+}
+@media (max-width: 576px) {
     .kelcap {
       font-size: 13px; /* Ukuran lebih kecil di layar kecil */
     }
