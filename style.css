@@ -78,6 +78,16 @@ html, body {
       margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
     }
 }
+@media (max-width: 576px) {
+    .mej1 {
+      margin-top: 73px!important; /* Ukuran lebih kecil di layar kecil */
+    }
+}
+@media (max-width: 576px) {
+    .kelcap {
+      font-size: 13px; /* Ukuran lebih kecil di layar kecil */
+    }
+}
 
 .navbar-nav {
     flex-wrap: wrap; /* Membungkus item jika tidak cukup ruang */
