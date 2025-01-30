@@ -93,6 +93,18 @@ html, body {
       font-size: 13px; /* Ukuran lebih kecil di layar kecil */
     }
 }
+@media (min-width: 1920px) {
+    .wn {
+        margin: auto;
+      display: flex!important;
+      justify-content: center!important; /* Ukuran lebih kecil di layar kecil */
+    }
+}
+@media (min-width: 1920px) {
+    .wpn {
+        margin: auto; /* Ukuran lebih kecil di layar kecil */
+    }
+}
 
 .navbar-nav {
     flex-wrap: wrap; /* Membungkus item jika tidak cukup ruang */
