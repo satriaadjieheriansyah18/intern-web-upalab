@@ -80,7 +80,7 @@ html, body {
 }
 @media (max-width: 576px) {
     .mej1 {
-      margin-top: 71px!important; /* Ukuran lebih kecil di layar kecil */
+      margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
     }
 }
 @media (max-width: 576px) {
