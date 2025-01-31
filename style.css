@@ -44,8 +44,13 @@ html, body {
     }
 }
 @media (max-width: 576px) {
+    .ftros {
+      font-size: 20px!important; /* Ukuran lebih kecil di layar kecil */
+    }
+}
+@media (max-width: 576px) {
     .spektros {
-      margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
+      margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil *//* Ukuran lebih kecil di layar kecil */
     }
 }
 
