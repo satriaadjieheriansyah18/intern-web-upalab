@@ -39,10 +39,16 @@ html, body {
     }
 }
 @media (max-width: 576px) {
+    .iconflur {
+      font-size: 30px!important; /* Ukuran lebih kecil di layar kecil */
+    }
+}
+@media (max-width: 576px) {
     .spektros {
       margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
     }
 }
+
 @media (max-width: 576px) {
     .biotek {
       margin-top: 80px!important; /* Ukuran lebih kecil di layar kecil */
@@ -91,6 +97,11 @@ html, body {
 @media (max-width: 576px) {
     .kelcap {
       font-size: 13px; /* Ukuran lebih kecil di layar kecil */
+    }
+}
+@media (max-width: 576px) {
+    .flur {
+      font-size: 16px; /* Ukuran lebih kecil di layar kecil */
     }
 }
 @media (min-width: 1920px) {
